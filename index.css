@@ -18,4 +18,30 @@
 
 nav{
     border-bottom: 5px solid brown;
+    position: sticky!important;
+    position: -webkit-sticky!important;
+    top: 0!important;
+    z-index: 9999!important;
+    background-color: white!important;
+    margin-top: 50px!important;
+}
+
+.cont-flex{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.cont-flex-items{
+    background-color: white;
+    height: auto;
+    max-width: 100%;
+    align-items: center;
+    align-self: center;
 }
