@@ -16,6 +16,17 @@
     }
 }
 
+@media screen and (min-width:820px) {
+    .boxx{
+        width: 33%;
+    }
+
+    .cont-flex{
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
 nav{
     border-bottom: 5px solid brown;
     position: sticky!important;
@@ -46,4 +57,25 @@ nav{
 
 .boxx{
     box-shadow: 0px 0px 3px lightgrey;
+}
+
+.services{
+    text-align: center;
+    display: block;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    row-gap: 5px;
+}
+
+.flex-container-items{
+    background-color: white;
+    padding: 10px;
+    line-height: 10px;
+    width: 100%;
+    height: auto;
 }

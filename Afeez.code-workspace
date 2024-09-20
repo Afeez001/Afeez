@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Afeez",
+			"path": "."
+		},
+		{
+			"name": "arike ade",
+			"path": "../arike ade"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Afeez"
+	}
+}
