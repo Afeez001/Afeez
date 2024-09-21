@@ -103,3 +103,23 @@ nav{
 .footer-list-item{
     padding: 5px 10px;
 }
+
+.link-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    display: inline-block;
+    background-color: green;
+    border-radius: 4px;
+}
+
+.last-line{
+    border: 1px thick grey;
+    width: 100%;
+}
+
+.last-div{
+    display: block;
+    text-align: center;
+}

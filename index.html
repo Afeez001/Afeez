@@ -65,6 +65,58 @@
              </div>
          </div>
       </nav>
+     <!-- The Modal -->
+     <div class="modal" id="myModal">
+       <div class="modal-dialog">
+         <div class="modal-content">
+     
+           <!-- Modal Header -->
+           <div class="modal-header">
+             <h4 class="modal-title">Price list</h4>
+             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+           </div>
+     
+           <!-- Modal body -->
+           <div class="modal-body">
+             <table class="table table-bordered table-striped table-hover">
+               <thead>
+                  <tr>
+                     <th><b>Qty</b></th>
+                     <th><b>Price</b></th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr></tr>
+                     <th>1</th>
+                     <th>5,000</th>
+                  </tr>
+                  <tr>
+                     <th>2</th>
+                     <th>10,000</th>
+                  </tr>
+                  <tr>
+                     <th>3</th>
+                     <th>15,000</th>
+                  </tr>
+                  <tr>
+                     <th>4</th>
+                     <th>20,000</th>
+                  </tr>
+                  <tr>
+                     <th>5</th>
+                     <th>25,000</th>
+                  </tr>
+               </tbody>
+             </table>
+           </div>
+           <!-- Modal footer -->
+           <div class="modal-footer">
+             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+           </div>
+     
+         </div>
+       </div>
+     </div>
       <div class="container-fluid p-0">
          <div id="mycarousel" class="carousel slide" data-bs-ride="carousel" >
             <div class="carousel-indicators">
@@ -118,7 +170,7 @@
                     <h5 class="card-title">T-shirt</h5>
                     <div class="justify-content-center">
                      <a href="#" class="btn btn-outline-secondary">Order Now</a>
-                     <a href="#" class="btn btn-dark">Price list</a>
+                     <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">Price list</a>
                      </div>
                   </div>
                </div>
@@ -130,7 +182,7 @@
                     <h5 class="card-title">T-shirt</h5>
                     <p class="card-text">Personalized for your taste</p>
                     <a href="#" class="btn btn-outline-secondary">Order Now</a>
-                    <a href="#" class="btn btn-dark">Price list</a>
+                    <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">Price list</a>
                   </div>
                </div>
             </div>
@@ -141,7 +193,7 @@
                     <h5 class="card-title">T-shirt</h5>
                     <p class="card-text">Personalized for your taste</p>
                     <a href="#" class="btn btn-outline-secondary">Order Now</a>
-                    <a href="#" class="btn btn-dark">Price list</a>
+                    <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">Price list</a>
                   </div>
                </div>
             </div>
@@ -213,11 +265,32 @@
                <!--end of third content-->
                <!--start of fourth content-->
                <div class="flex-container-items">
+                  <span class="h5 text-warning">Chat Us On</span>
+                  <ul class="footer-list-group">
+                     <li class="footer-list-item">
+                        <div class="link-box">
+                           <a href="https://wa.me/message/543OXPOIGHUBO1"><i class="fa-brands fa-whatsapp fa-xl" style="color: #ffffff;"></i></a>
+                        </div>
+                        <div class="link-box bg-primary">
+                           <a href="https://wa.me/message/543OXPOIGHUBO1"><i class="fa-brands fa-facebook-f fa-xl" style="color: #ffffff;"></i></a>
+                        </div>
+                        <div class="link-box bg-dark">
+                           <a href="https://wa.me/message/543OXPOIGHUBO1"><i class="fa-brands fa-tiktok fa-xl" style="color: #ffffff;"></i></a>
+                        </div>
+                        <div class="link-box bg-dark">
+                           <a href="https://wa.me/message/543OXPOIGHUBO1"><i class="fa-brands fa-x-twitter fa-xl" style="color: #ffffff;"></i></a>
+                        </div>
+                     </li>
+                  </ul>
                </div>
                <!--end of fourth content-->
             </div>
          </div>
+         <hr class="last-line">
+         <div class="container-fluid">
+            <span class="text-white last-div">copyright Copyright © 2017 - 2024 by Afeez.</span>
+         </div>
       </footer>
-      <!--Start of footer content--> 
+      <!--end of footer content-->
  </body>
 </html>
