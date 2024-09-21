@@ -73,9 +73,33 @@ nav{
 }
 
 .flex-container-items{
-    background-color: white;
     padding: 10px;
     line-height: 10px;
     width: 100%;
     height: auto;
+}
+
+.fixed-whatsapp{
+    background-color: rgb(13, 112, 9);
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 999999;
+}
+
+.footer-list-group{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list-item{
+    padding: 5px 10px;
 }
