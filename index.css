@@ -108,9 +108,9 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
     display: inline-block;
-    background-color: green;
+    background-color: rgb(1, 255, 1);
     border-radius: 4px;
 }
 
