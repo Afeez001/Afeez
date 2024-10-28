@@ -28,7 +28,6 @@
 }
 
 nav{
-    border-bottom: 5px solid brown;
     position: sticky!important;
     position: -webkit-sticky!important;
     top: 0!important;
@@ -122,4 +121,28 @@ nav{
 .last-div{
     display: block;
     text-align: center;
+}
+
+.hero-section{
+    height: 300px;
+    background-color: red;
+    width: 100%;
+    background-image: url('img/hero-section-image.jpg');
+    background-size: 100% auto;
+    background-attachment: fixed;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.hero-section-text{
+    position: absolute;
+    width: 75%;
+    top: 40%;
+    left: 15%;
+}
+
+.hero-section-text span{
+    font-size: 45px;
+    line-height: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
